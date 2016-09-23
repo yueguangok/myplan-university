@@ -1,0 +1,8 @@
+/* CSS Document */
+.headBar{width:100%;height:120px;background-color:#CF6;}
+.zone,.video,.article,.news{padding:0 600px 300px 0;margin:40px auto 0 150px;font-size:36px}
+.topBar{padding:50px;margin:0 50px 0 100px;float:left;width:1000px;}
+.collectionBar{margin:0 20px;float:left;}
+.logoBar{width:100px;float:left;}
+.adminBar{float:right;}
+.topFont{font-size:20px;color:#33F;text-decoration:underline;}

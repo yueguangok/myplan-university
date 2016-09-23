@@ -1,0 +1,5 @@
+.loginBox{margin:auto;width:300px;border:1px solid red;background-color:#CCC;padding:20px 0 100px;}
+.welcome{font:18px "Microsoft Yahei","微软雅黑";color:#F00;}
+.btnLogin,.welcomeLeft,.welcomeRight{width:100px;margin:2px auto;}
+.btnLogin{text-align:center;margin:20px 100px 20px;width:110px;}
+.ul li{padding:0 100px 10px;width:110px;}

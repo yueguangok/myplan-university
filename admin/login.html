@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+    <link type="text/css" rel="stylesheet" href="styles/reset.css"> 
+    <link type="text/css" rel="stylesheet" href="styles/login.css"> 
+    <link type="text/css" rel="stylesheet" href="../styles/main.css"> 
+</head>
+
+<body>
+    <!--首页部分-->
+    <div class="headBar">
+        <div class="topBar">
+            <div class="collectionBar">
+                <a href="#" class="topFont">收藏本站</a>
+            </div>
+            <div class="logoBar">
+                <a href="../index.html" class="topFont">返回首页</a>
+            </div>
+            <div class="adminBar">
+                <a href="admin/login.html" class="topFont">管理员登陆</a>
+            </div>
+        </div>
+    </div>
+    <!--登录按钮-->  
+<div class="loginBox">
+	<div class="welcome">
+    	<p class="welcomeLeft">大学之音</p>
+        <p class="welcomeRight">欢迎登录</p>
+    </div>
+	<div class="loginUp">
+		<form action="login.php" method="post">
+    		<ul class="login">
+        		<li class="liUp">管理员账号</li>
+				<li class="liDown"><input type="text" class="username"></li>
+            	<li class="liUp">管理员密码</li>
+				<li class="liDown"><input type="password" class="userpwd"></li>
+          		<li class="liUp">验证码</li>
+				<li class="liDown"><input type="text" class="loginAction"></li>
+        	</ul>
+            <div class="doAction">
+            	<img src="#" alt="网络连接有问题哦" title="点击更换验证码" onclick="doAction()">
+            </div>
+            <input type="button" name="btnLogin" value="登录" class="btnLogin"/>
+        </form>    
+	</div>
+</div>
+</body>
+</html>
